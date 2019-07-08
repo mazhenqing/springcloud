@@ -1,0 +1,7 @@
+server:
+  port: 9002
+
+turbine:
+  appConfig: ORDER-FEIGN-CLIENT
+  aggregator:
+    clusterConfig: default

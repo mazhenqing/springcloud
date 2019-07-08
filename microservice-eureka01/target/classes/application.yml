@@ -1,0 +1,50 @@
+#端口号会随机变化
+#server:
+#  port: 0
+#server: 随机端口号
+#  port: ${random.int[1000,19999]}
+server:
+  port: 7001
+  #开启了全局路径 在前面加的
+  servlet:
+      context-path: /hello/
+#开启安全保护机制 为eureka server加密 只有账号密码正确才可以访问
+spring:
+  security:
+    basic:
+      enabled: true
+    user:
+      name: mazhenqing  # 用户名
+      password: mazhenqing123456   # 用户密码
+
+eureka:
+  instance:
+    #eureka服务端的实例名称 在/etc/hosts文件中添加对 eureka01的转换，让上线的配置的host形式的serviceURL能在本地正确访问到 Windows系统路径为c://windows/system32/drivers/etc/hosts
+    hostname: eureka01
+    #为了安全起见 设置了info和health断点的起始和终止路径
+    status-page-url-path: ${server.servlet.context-path}/info
+    health-check-url-path: ${server.servlet.context-path}/health
+  client:
+    # false表示不向注册中心注册自己
+    register-with-eureka: false
+    # false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
+    fetch-registry: false
+    service-url:
+      #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址（单机）。
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://mazhenqing:mazhenqing123456@eureka02:7002/hello/eureka/,http://mazhenqing:mazhenqing123456@eureka03:7003/hello/eureka/
+
+  server:
+    eviction-interval-timer-in-ms: 3000 #过期实例应该启动并运行的时间间隔，单位为毫秒，默认为60 * 1000
+#近期改为false测试  无法登陆eureka页面
+    enable-self-preservation: false #eureka server的自我保护机制
+#开启了全局路径 在前面加的  失效了
+#management:
+#  context-path: /hello
+
+#修改/info和/health断点的原始路径 版本问题
+#endpoints:
+#  info:
+#    path: /appInfo
+#  health:
+#    path: /checkHealth

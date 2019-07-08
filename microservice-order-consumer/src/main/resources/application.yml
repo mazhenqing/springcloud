@@ -1,0 +1,52 @@
+server:
+  port: 9001
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://mazhenqing:mazhenqing123456@eureka01:7001/hello/eureka/,http://mazhenqing:mazhenqing123456@eureka02:7002/hello/eureka/,http://mazhenqing:mazhenqing123456@eureka03:7003/hello/eureka/
+
+  instance:
+    instance-id: 消费方服务-9001  # 人性化显示出服务的信息
+    prefer-ip-address: true    # 访问路径可显示ip地址
+    lease-renewal-interval-in-seconds: 2 #参数用于定义服务续约任务的调用间隔时间,默认为30秒
+    lease-expiration-duration-in-seconds: 5  #参数用于定义服务时效的时间,默认为90秒
+
+#开启重试机制
+spring:
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000 #断路器的超时时间需要大于Ribbon的超时时间,不然不会触发重试
+
+microservice-order:
+  ribbon:
+    ConnectTimeout: 250 #请求连接的超时时间
+    ReadTimeOut: 1000 #请求处理的超时时间
+    OkToRetryOnAllOperations: true #对所有操作请求都进行重试
+    MaxAutoRetriesNextServer: 2 #切换实例的重试次数
+    MaxAutoRetries: 1 #对当前实例的重试次数
+
+
+  application:
+    name: ribbon-client
+
+
+
+
+#
+#MICROSERVICE-ORDER:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RetryRule
+
+
+
