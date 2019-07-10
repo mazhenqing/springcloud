@@ -2,10 +2,7 @@ package com.itcodai.springcloud.controller;
 
 import com.itcodai.springcloud.entity.TOrder;
 import com.itcodai.springcloud.service.OrderClientService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -24,8 +21,8 @@ public class OrderConsumerController {
     @Resource
     private OrderClientService orderClientService;
 
-    @GetMapping("/get/{id}")
-    public TOrder getOrder(@PathVariable Long id) {
+    @PostMapping("/get/{id}")
+    public TOrder getOrder(@PathVariable(value = "id") Long id) {
         return orderClientService.getOrder(id);
     }
 

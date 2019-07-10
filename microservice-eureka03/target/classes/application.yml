@@ -1,3 +1,4 @@
+#默认访问路径为 eureka01:7001/hello 而不是eureka01:7001/hello/eureka/ 第一个是主页 第二个是指向注册的服务
 server:
   port: 7003
   #开启了全局路径 在前面加的

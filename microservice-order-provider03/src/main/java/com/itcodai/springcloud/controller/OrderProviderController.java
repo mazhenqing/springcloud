@@ -29,7 +29,7 @@ public class OrderProviderController {
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderProviderController.class);
 
     @PostMapping("/get/{id}")
-    public TOrder getOrder(@PathVariable Long id) {
+    public TOrder getOrder(@PathVariable(value = "id") Long id) {
         return orderService.findById(id);
     }
 

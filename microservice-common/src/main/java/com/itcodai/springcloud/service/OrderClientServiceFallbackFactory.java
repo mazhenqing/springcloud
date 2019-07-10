@@ -25,6 +25,7 @@ public class OrderClientServiceFallbackFactory implements FallbackFactory<OrderC
              */
             @Override
             public TOrder getOrder(Long id) {
+                System.out.println("进入断路器了吗？");
                 return new TOrder().setId(id)
                         .setName("未找到该ID的结果")
                         .setPrice(0d)
