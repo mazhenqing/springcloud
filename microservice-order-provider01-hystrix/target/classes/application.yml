@@ -4,7 +4,7 @@ server:
 
 # 数据库地址
 datasource:
-  url: localhost:3306/microservice01
+  url: 192.168.18.8:3306/microservice01
 
 spring:
   application:
@@ -14,7 +14,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://${datasource.url}?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
     username: root
-    password: root
+    password: 123456
     hikari:
       maximum-pool-size: 10 # 最大连接池数
       max-lifetime: 1770000
@@ -35,7 +35,9 @@ eureka:
     healthcheck:
       enabled: true
   instance:
-    metadata-map: shanghai #给对应的服务增加所在区域 因为ribbon 策略中有根据区域来 负载均衡的措施 而且ribbon默认的是区域亲和策略
+    metadata-map:
+      long: 卧槽
+      zone: shanghai #给对应的服务增加所在区域 因为ribbon 策略中有根据区域来 负载均衡的措施 而且ribbon默认的是区域亲和策略
     instance-id: 书籍订单服务-8001-Hystrix  # 人性化显示出服务的信息（带hystrix）
     prefer-ip-address: true    # 访问路径可显示ip地址
     lease-renewal-interval-in-seconds: 2

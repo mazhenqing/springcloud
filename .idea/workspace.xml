@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb80110d-29e6-4904-bedc-b234283cd09b" name="Default Changelist" comment="">
+    <list default="true" id="bb80110d-29e6-4904-bedc-b234283cd09b" name="Default Changelist" comment="修改后">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-common/target/classes/com/itcodai/springcloud/service/OrderClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-common/target/classes/com/itcodai/springcloud/service/OrderClientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-eureka03/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka03/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-order-consumer-feign/target/classes/com/itcodai/springcloud/controller/OrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer-feign/target/classes/com/itcodai/springcloud/controller/OrderConsumerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-order-provider02/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider02/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-order-provider03/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider03/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider01-hystrix/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01-hystrix/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/microservice-config/target/" />
@@ -46,28 +39,30 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientService.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-order-consumer-hystrix-dashboard/src/main/java/com/itcodai/springcloud/OrderConsumerHystrixDashboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-order-comsumer-hystrix-dashboard-turbine/src/main/java/com.itcodai.springcloud/OrderConsumerHystrixDashboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,6 +75,7 @@
       <find>initWithNiwsConfig</find>
       <find>RestTemplate</find>
       <find>MICROSERVICE-ORDER</find>
+      <find>metadata-map</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,6 +105,7 @@
         <option value="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientService.java" />
         <option value="$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java" />
         <option value="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -126,8 +123,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="267" />
-    <option name="y" value="37" />
+    <option name="x" value="960" />
+    <option name="y" value="2" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -137,75 +134,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-common" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-common" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-consumer-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-consumer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -213,7 +169,7 @@
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -222,54 +178,17 @@
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +226,7 @@
     </option>
     <option name="contentProportion" value="0.17911255" />
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderConsumerFeign">
+  <component name="RunManager" selected="Spring Boot.OrderProvider01Hystrix">
     <configuration name="ConfigCllient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.ConfigCllient" />
@@ -392,9 +311,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderConsumerHystrixDashboard" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="OrderConsumerHystrixDashboard" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="microservice-order-consumer-hystrix-dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcodai.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcodai.springcloud.OrderConsumerHystrixDashboard" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderConsumerHystrixDashboardTurbine" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-order-comsumer-hystrix-dashboard-turbine" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcodai.springcloud.OrderConsumerHystrixDashboard" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -439,6 +373,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderConsumerHystrixDashboard" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -459,16 +398,27 @@
       <workItem from="1562640347888" duration="987000" />
       <workItem from="1562643861115" duration="8362000" />
       <workItem from="1562657623996" duration="7538000" />
+      <workItem from="1562724602670" duration="3127000" />
+      <workItem from="1562736780057" duration="4328000" />
     </task>
+    <task id="LOCAL-00001" summary="修改后">
+      <created>1562724807729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562724807729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43665000" />
+    <option name="totallyTimeSpent" value="51120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38699362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3315565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -484,14 +434,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.44577006" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.50867677" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.36334056" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.37635574" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.28850326" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -517,59 +467,11 @@
       </list>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改后" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改后" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="26" selection-start-line="26" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka01/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka02/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka03/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="78" selection-start-column="78" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/dao/OrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -742,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-order-provider01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
@@ -833,16 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.7.0/feign-hystrix-9.7.0.jar!/feign/hystrix/HystrixInvocationHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -885,6 +770,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -895,14 +791,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java">
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="287">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/java/com/itcodai/springcloud/OrderProvider01Hystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-hystrix-dashboard/src/main/java/com/itcodai/springcloud/OrderConsumerHystrixDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-comsumer-hystrix-dashboard-turbine/src/main/java/com.itcodai.springcloud/OrderConsumerHystrixDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.2.RELEASE/spring-cloud-netflix-eureka-client-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="246" column="16" selection-start-line="246" selection-start-column="16" selection-end-line="246" selection-end-column="16" />
+          <folding>
+            <element signature="e#7839#7840#0" expanded="true" />
+            <element signature="e#7885#7886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
