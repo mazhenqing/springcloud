@@ -4,10 +4,7 @@ import com.itcodai.springcloud.entity.TOrder;
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixCommandProperties;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import springcloud.service.InheritOrderConsumerService;
 
@@ -26,7 +23,7 @@ public class InheritOrderConsumerController {
 //execute()是同步执行  queue（）是异步执行
 //Future<String> fs = new CommandHelloWorld("World").queue();
 //String s = fs.get();
-    @GetMapping("/get/{id}")
+    @PostMapping("/get/{id}")
     public TOrder getOrder(@PathVariable Long id) throws Exception{
         Future<TOrder> tOrder=new InheritOrderConsumerService(HystrixCommand.Setter.withGroupKey(
                 HystrixCommandGroupKey.Factory.asKey("myfirstHy")).andCommandPropertiesDefaults(

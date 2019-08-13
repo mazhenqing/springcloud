@@ -2,10 +2,8 @@ package com.itcodai.springcloud.controller;
 
 import com.itcodai.springcloud.entity.TOrder;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
@@ -28,9 +26,11 @@ public class OrderConsumerController {
     @Resource
     private RestTemplate restTemplate;
 
-    @GetMapping("/get/{id}")
+    @PostMapping("/get/{id}")
     public TOrder getOrder(@PathVariable Long id) {
-        return restTemplate.getForObject(ORDER_PROVIDER_URL_PREFIX + "/provider/order/get/" + id, TOrder.class);
+        //return restTemplate.postForObject(ORDER_PROVIDER_URL_PREFIX + "/provider/order/get/" + id,id, TOrder.class);
+        ResponseEntity<TOrder> responseEntity =restTemplate.postForEntity(ORDER_PROVIDER_URL_PREFIX + "/provider/order/get/" + id,id, TOrder.class);
+        return responseEntity.getBody();
     }
 
     @SuppressWarnings("unchecked")

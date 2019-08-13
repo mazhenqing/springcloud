@@ -5,10 +5,7 @@ import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixCommandProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import springcloud.service.InheritOrderConsumerService;
 import springcloud.service.OrderConsumerService;
@@ -27,12 +24,12 @@ public class InheritOrderConsumerController {
 //加在消费方的断路器  将它分离在service上
 //withExecutionTimeoutInMilliseconds 默认超时时间是1秒 下面方法设置了2秒
     //private TOrder tOrder1;
-    @GetMapping("/get/{id}")
+    @PostMapping("/get/{id}")
     public TOrder getOrder(@PathVariable Long id) {
-        TOrder tOrder=new InheritOrderConsumerService(HystrixCommand.Setter.withGroupKey(
-                HystrixCommandGroupKey.Factory.asKey("myfirstHy")).andCommandPropertiesDefaults(
+        InheritOrderConsumerService inheritOrderConsumerService=new InheritOrderConsumerService(HystrixCommand.Setter.withGroupKey(
+                HystrixCommandGroupKey.Factory.asKey("inheritOrderConsumerService")).andCommandPropertiesDefaults(
                 HystrixCommandProperties.Setter().withExecutionTimeoutInMilliseconds(2000)),
-                new RestTemplate(),new TOrder() ,id).execute();
-        return tOrder;
+                new RestTemplate(),id);
+        return inheritOrderConsumerService.execute();
     }
 }

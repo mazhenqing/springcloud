@@ -23,6 +23,7 @@
         <module name="microservice-order-provider02" />
         <module name="microservice-order-provider01" />
         <module name="microservice-order-consumer-hystrix-dashboard" />
+        <module name="microservice-test" />
         <module name="microservice-common" />
         <module name="microservice-eureka03" />
         <module name="microservice-eureka02" />

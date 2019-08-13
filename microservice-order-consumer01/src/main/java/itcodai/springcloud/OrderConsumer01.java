@@ -1,20 +1,17 @@
 package itcodai.springcloud;
 
 import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
-import com.netflix.loadbalancer.RoundRobinRule;
 import com.netflix.loadbalancer.WeightedResponseTimeRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 //这是一种写法 还有一种在microservice-order-consumer里
 @SpringBootApplication
 @EnableEurekaClient
-public class OrderConsumer {
+public class OrderConsumer01 {
     //在启动类中创建restTemplate的springbean实例
     @Bean
     @LoadBalanced //开启客户端负载均衡
@@ -42,6 +39,6 @@ public class OrderConsumer {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(OrderConsumer.class, args);
+        SpringApplication.run(OrderConsumer01.class, args);
     }
 }

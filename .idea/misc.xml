@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/microservice-order-provider01-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-order-consumer-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-order-comsumer-hystrix-dashboard-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-test/pom.xml" />
       </list>
     </option>
   </component>

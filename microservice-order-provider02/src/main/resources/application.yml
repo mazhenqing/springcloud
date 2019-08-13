@@ -37,14 +37,14 @@ eureka:
   instance:
     metadata-map:
       zone: shanghai #给对应的服务增加所在区域 因为ribbon 策略中有根据区域来 负载均衡的措施 而且ribbon默认的是区域亲和策略
-    instance-id: 书籍订单服务-8002  # 人性化显示出服务的信息
+    instance-id: 蜜袋鼯订单服务-8002  # 人性化显示出服务的信息
     prefer-ip-address: true    # 访问路径可显示ip地址 否则就以主机名注册
     lease-renewal-interval-in-seconds: 2  #参数用于定义服务续约任务的调用间隔时间,默认为30秒
     lease-expiration-duration-in-seconds: 5  #参数用于定义服务时效的时间,默认为90秒
 
 # 使用actuator来展示项目的基本信息
 info:
-  author.name: shengwu ni
+  author.name: zhenqing ma
   app.name: microservice
   server.port: ${server.port}
   application.name: ${spring.application.name}

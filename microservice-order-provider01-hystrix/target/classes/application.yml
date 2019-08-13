@@ -36,7 +36,6 @@ eureka:
       enabled: true
   instance:
     metadata-map:
-      long: 卧槽
       zone: shanghai #给对应的服务增加所在区域 因为ribbon 策略中有根据区域来 负载均衡的措施 而且ribbon默认的是区域亲和策略
     instance-id: 书籍订单服务-8001-Hystrix  # 人性化显示出服务的信息（带hystrix）
     prefer-ip-address: true    # 访问路径可显示ip地址

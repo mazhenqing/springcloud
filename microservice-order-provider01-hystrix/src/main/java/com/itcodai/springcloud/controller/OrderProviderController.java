@@ -36,6 +36,7 @@ public class OrderProviderController {
      */
 
     @PostMapping("/get/{id}")
+    //如果想看hystrix dashboard 必须要加@HystrixCommand
     @HystrixCommand(fallbackMethod = "processGetOrderHystrix")//表示该接口开启 hystrix 熔断机制，如果出现问题，就去调用 fallbackMethod 属性指定的 processGetOrderHystrix 方法
     public TOrder getOrder(@PathVariable Long id) {
         TOrder order = orderService.findById(id);

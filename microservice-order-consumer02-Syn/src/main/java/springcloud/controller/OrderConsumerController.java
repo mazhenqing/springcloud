@@ -3,10 +3,7 @@ package springcloud.controller;
 import com.itcodai.springcloud.entity.TOrder;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import springcloud.service.OrderConsumerService;
 
@@ -32,7 +29,7 @@ public class OrderConsumerController {
     @Autowired
     OrderConsumerService orderConsumerService;
 //加在消费方的断路器  将它分离在service上
-    @GetMapping("/get/{id}")
+    @PostMapping("/get/{id}")
     public TOrder getOrder(@PathVariable Long id) {
         return orderConsumerService.getOrder(id);
     }

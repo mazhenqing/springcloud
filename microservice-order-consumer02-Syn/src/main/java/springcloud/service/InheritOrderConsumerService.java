@@ -15,18 +15,17 @@ public class InheritOrderConsumerService extends HystrixCommand<TOrder>{
     private RestTemplate restTemplate;
     private TOrder tOrder;
     private Long id;
-    private static final String ORDER_PROVIDER_URL_PREFIX = "http://MICROSERVICE-ORDER";
+//    private static final String ORDER_PROVIDER_URL_PREFIX = "http://MICROSERVICE-ORDER";
+    private static final String ORDER_PROVIDER_URL_PREFIX = "http://localhost:8004";
     //@Autowired(required = false)//降低 Autowired 检测的级别，将 Severity 的级别由之前的 error 改成 warning 或其它可以忽略的级别
-    public InheritOrderConsumerService(Setter setter, RestTemplate restTemplate,TOrder tOrder,Long id) {
+    public InheritOrderConsumerService(Setter setter, RestTemplate restTemplate,Long id) {
         super(setter);
         this.restTemplate=restTemplate;
-        this.tOrder=tOrder;
         this.id=id;
     }
     @Override
     protected TOrder run() throws Exception {
-        System.out.println("id-->"+id);
-        return restTemplate.postForObject(ORDER_PROVIDER_URL_PREFIX + "/provider/order/get/" + id,id, TOrder.class);
+        return restTemplate.postForObject(ORDER_PROVIDER_URL_PREFIX + "/provider/order/get/"+id,id, TOrder.class);
     }
 
     @Override

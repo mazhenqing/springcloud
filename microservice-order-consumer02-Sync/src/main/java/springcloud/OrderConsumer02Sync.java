@@ -2,6 +2,7 @@ package springcloud;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
+import com.netflix.loadbalancer.RoundRobinRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
@@ -40,7 +41,7 @@ public class OrderConsumer02Sync {
     @Bean
     public IRule myRule() {
         // 指定重试策略：随机策略
-        return new RandomRule();
+        return new RoundRobinRule();
     }
 
     public static void main(String[] args) {

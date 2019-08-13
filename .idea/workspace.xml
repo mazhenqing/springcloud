@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb80110d-29e6-4904-bedc-b234283cd09b" name="Default Changelist" comment="修改后">
+    <list default="true" id="bb80110d-29e6-4904-bedc-b234283cd09b" name="Default Changelist" comment="哈哈">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/OrderProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/controller/OrderProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/dao/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-common/target/classes/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-common/target/classes/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer/target/classes/com/itcodai/myrule/CustomRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer/target/classes/com/itcodai/myrule/CustomRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer/target/classes/com/itcodai/springcloud/controller/OrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer/target/classes/com/itcodai/springcloud/controller/OrderConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/OrderConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/OrderConsumer01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/controller/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/controller/OrderConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer01/target/classes/itcodai/springcloud/OrderConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer01/target/classes/itcodai/springcloud/controller/OrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer01/target/classes/itcodai/springcloud/controller/OrderConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/InheritOrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/InheritOrderConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/OrderConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/service/InheritOrderConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/service/InheritOrderConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Syn/target/classes/springcloud/controller/InheritOrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Syn/target/classes/springcloud/controller/InheritOrderConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Syn/target/classes/springcloud/controller/OrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Syn/target/classes/springcloud/controller/OrderConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Syn/target/classes/springcloud/service/InheritOrderConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Syn/target/classes/springcloud/service/InheritOrderConsumerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/OrderConsumer02Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/OrderConsumer02Sync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/controller/InheritOrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/controller/InheritOrderConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Sync/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Sync/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Sync/target/classes/springcloud/OrderConsumer02Sync.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Sync/target/classes/springcloud/OrderConsumer02Sync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer02-Sync/target/classes/springcloud/controller/InheritOrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer02-Sync/target/classes/springcloud/controller/InheritOrderConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer03-Asy/src/main/java/spingcloud/controller/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer03-Asy/src/main/java/spingcloud/controller/OrderConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer03/src/main/java/spingcloud/controller/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer03/src/main/java/spingcloud/controller/OrderConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-consumer03/target/classes/spingcloud/controller/OrderConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-consumer03/target/classes/spingcloud/controller/OrderConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-order-provider01-hystrix/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01-hystrix/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider01-hystrix/target/classes/com/itcodai/springcloud/controller/OrderProviderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01-hystrix/target/classes/com/itcodai/springcloud/controller/OrderProviderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider01/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider01/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider02/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider02/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider02/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider03/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider03/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-order-provider03/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-order-provider03/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/microservice-config/target/" />
@@ -29,6 +69,7 @@
     <ignored path="$PROJECT_DIR$/microservice-order-consumer03/target/" />
     <ignored path="$PROJECT_DIR$/microservice-order-provider01/target/" />
     <ignored path="$PROJECT_DIR$/microservice-order-provider02/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,43 +80,25 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-order-consumer-hystrix-dashboard/src/main/java/com/itcodai/springcloud/OrderConsumerHystrixDashboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-order-comsumer-hystrix-dashboard-turbine/src/main/java/com.itcodai.springcloud/OrderConsumerHystrixDashboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>status-page-url-path</find>
       <find>initWithNiwsConfig</find>
       <find>RestTemplate</find>
-      <find>MICROSERVICE-ORDER</find>
       <find>metadata-map</find>
+      <find>lombok</find>
+      <find>schedule</find>
+      <find>MICROSERVICE-ORDER</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,15 +108,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-eureka01/src/main/java/com/itcodai/springcloud/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/microservice-eureka02/src/main/java/com/itcodai/springcloud/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/microservice-eureka03/src/main/java/com/itcodai/springcloud/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/microservice-eureka03/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-eureka01/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-eureka02/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/OrderProvider01.java" />
-        <option value="$PROJECT_DIR$/microservice-order-provider02/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-order-provider01/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-order-provider01/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-eureka01/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-eureka02/src/main/resources/application.yml" />
@@ -102,10 +120,45 @@
         <option value="$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" />
         <option value="$PROJECT_DIR$/microservice-order-provider02/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" />
         <option value="$PROJECT_DIR$/microservice-order-provider03/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" />
-        <option value="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientService.java" />
         <option value="$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java" />
-        <option value="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/java/com/itcodai/springcloud/OrderProvider01Hystrix.java" />
         <option value="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java" />
+        <option value="$PROJECT_DIR$/microservice-order-provider02/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-order-provider02/src/main/java/com/itcodai/springcloud/OrderProvider02.java" />
+        <option value="$PROJECT_DIR$/microservice-test/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/controller/OrderProviderController.java" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/OrderProviderTest.java" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/config/ConfigTest.java" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/config/springBeanUtils.java" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/config/task.java" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/config/ArraignedLogService.java" />
+        <option value="$PROJECT_DIR$/microservice-test/src/main/java/springcloud/config/StartupListener.java" />
+        <option value="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientService.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/controller/OrderConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/OrderConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservice-order-provider02/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-provider01/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-provider03/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/InheritOrderConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/controller/InheritOrderConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/OrderConsumer02Sync.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/service/InheritOrderConsumerService.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/service/InheritOrderConsumerService.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer03/src/main/java/spingcloud/controller/OrderConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer03-Asy/src/main/java/spingcloud/controller/OrderConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservice-order-consumer03-Asy/src/main/java/spingcloud/service/OrderConsumerService.java" />
+        <option value="$PROJECT_DIR$/microservice-order-provider01/src/main/resources/mapper/BasicMapper.xml" />
+        <option value="$PROJECT_DIR$/microservice-order-provider02/src/main/resources/mapper/BasicMapper.xml" />
+        <option value="$PROJECT_DIR$/microservice-order-provider03/src/main/resources/mapper/BasicMapper.xml" />
+        <option value="$PROJECT_DIR$/microservice-order-provider01/src/main/resources/conf/configuration.xml" />
       </list>
     </option>
   </component>
@@ -123,10 +176,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="y" value="2" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="411" />
+    <option name="width" value="1212" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,61 +186,142 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order-provider01-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-order-provider03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,13 +333,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="last_opened_file_path" value="F:/springcloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-order-provider03/src/main/resources/conf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaworkspace\springcloud_study\microservice-order-provider03\src\main\resources\conf" />
+      <recent name="F:\ideaworkspace\springcloud_study\microservice-order-provider02\src\main\resources\conf" />
+      <recent name="F:\ideaworkspace\springcloud_study\microservice-order-provider01\src\main\resources\conf" />
+      <recent name="F:\ideaworkspace\springcloud_study\microservice-order-provider03\src\main\resources\mapper" />
+      <recent name="F:\ideaworkspace\springcloud_study\microservice-order-provider02\src\main\resources\mapper" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -224,9 +366,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.17911255" />
+    <option name="contentProportion" value="0.14556277" />
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderProvider01Hystrix">
+  <component name="RunManager" selected="Spring Boot.OrderConsumer03Asy">
     <configuration name="ConfigCllient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.ConfigCllient" />
@@ -262,16 +404,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderConsumer (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="OrderConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="microservice-order-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcodai.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcodai.springcloud.OrderConsumer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="OrderConsumer01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-order-consumer01" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="itcodai.springcloud.OrderConsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itcodai.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="itcodai.springcloud.OrderConsumer01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderConsumer01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-order-consumer01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="itcodai.springcloud.OrderConsumer01" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -333,6 +496,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-order-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcodai.springcloud.OrderConsumer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderProvider01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-order-provider01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcodai.springcloud.OrderProvider01" />
@@ -361,6 +532,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderProviderTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.OrderProviderTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-zuul-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itcodai.springcloud.ZuulGateway" />
@@ -375,6 +559,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderConsumer" />
+        <item itemvalue="Spring Boot.OrderConsumer01" />
+        <item itemvalue="Spring Boot.OrderProviderTest" />
         <item itemvalue="Spring Boot.OrderConsumerHystrixDashboard" />
       </list>
     </recent_temporary>
@@ -399,7 +586,27 @@
       <workItem from="1562643861115" duration="8362000" />
       <workItem from="1562657623996" duration="7538000" />
       <workItem from="1562724602670" duration="3127000" />
-      <workItem from="1562736780057" duration="4328000" />
+      <workItem from="1562736780057" duration="14393000" />
+      <workItem from="1562807370206" duration="4636000" />
+      <workItem from="1562894640975" duration="599000" />
+      <workItem from="1563157327668" duration="700000" />
+      <workItem from="1563277972788" duration="3098000" />
+      <workItem from="1563326255956" duration="3755000" />
+      <workItem from="1563412569341" duration="709000" />
+      <workItem from="1563756225636" duration="11138000" />
+      <workItem from="1564023942344" duration="1213000" />
+      <workItem from="1564029590376" duration="6640000" />
+      <workItem from="1564105498340" duration="598000" />
+      <workItem from="1564120980070" duration="599000" />
+      <workItem from="1564447160722" duration="786000" />
+      <workItem from="1564535073952" duration="1224000" />
+      <workItem from="1564627188638" duration="5953000" />
+      <workItem from="1564974722772" duration="20185000" />
+      <workItem from="1565141177690" duration="597000" />
+      <workItem from="1565244572189" duration="10126000" />
+      <workItem from="1565337327397" duration="4032000" />
+      <workItem from="1565573402057" duration="3365000" />
+      <workItem from="1565678322060" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="修改后">
       <created>1562724807729</created>
@@ -408,24 +615,30 @@
       <option name="project" value="LOCAL" />
       <updated>1562724807729</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="哈哈">
+      <created>1562749417373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562749417373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51120000" />
+    <option name="totallyTimeSpent" value="141738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3315565" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.29051173" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -437,11 +650,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.44577006" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.50867677" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.1626898" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.36334056" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.28850326" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.21366595" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,6 +666,42 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.2196162" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.44577006" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.50867677" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.1626898" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.36334056" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.28199565" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -469,247 +718,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改后" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改后" />
+    <MESSAGE value="哈哈" />
+    <option name="LAST_COMMIT_MESSAGE" value="哈哈" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/dao/OrderMapper.java">
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/springcloud/config/RestTemplateConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="189">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/entity/TOrder.java">
+    <entry file="file://$PROJECT_DIR$/microservice-eureka01/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="585">
+          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-hystrix-dashboard/src/main/java/com/itcodai/springcloud/OrderConsumerHystrixDashboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/myrule/MyRuleConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.7.0/feign-hystrix-9.7.0.jar!/feign/hystrix/HystrixInvocationHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/IRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5.jar!/com/netflix/client/IClientConfigAware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/AbstractLoadBalancerRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/ILoadBalancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="942" column="26" selection-start-line="942" selection-start-column="26" selection-end-line="942" selection-end-column="26" />
-          <folding>
-            <element signature="e#36478#36479#0" expanded="true" />
-            <element signature="e#36536#36537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/myrule/CustomRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/OrderConsumer02Syn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/InheritOrderConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/OrderConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/service/InheritOrderConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="28" column="97" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/service/OrderConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka02/src/main/java/com/itcodai/springcloud/EurekaServer02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/controller/OrderConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer01/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/springcloud/OrderConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/OrderConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="123" column="13" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/OrderProvider01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider02/src/main/java/com/itcodai/springcloud/OrderProvider02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka03/src/main/java/com/itcodai/springcloud/EurekaServer03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka01/src/main/java/com/itcodai/springcloud/EurekaServer01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider03/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider03/src/main/java/com/itcodai/springcloud/OrderProvider03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider02/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        <state relative-caret-position="192">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="273">
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -717,63 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/OrderConsumerFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.7.0/feign-hystrix-9.7.0.jar!/feign/hystrix/HystrixInvocationHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/AbstractCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="289" selection-start-line="289" selection-end-line="289" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="1311" selection-start-line="1311" selection-end-line="1311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/strategy/HystrixPlugins.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/ServiceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientServiceFallbackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="116">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
             <element signature="e#1027#1028#0" expanded="true" />
             <element signature="e#1070#1071#0" expanded="true" />
@@ -783,18 +773,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/service/OrderClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="300">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="e#609#610#0" expanded="true" />
             <element signature="e#663#664#0" expanded="true" />
@@ -802,56 +789,314 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/java/com/itcodai/springcloud/controller/OrderProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/java/com/itcodai/springcloud/OrderProvider01Hystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-hystrix-dashboard/src/main/java/com/itcodai/springcloud/OrderConsumerHystrixDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-comsumer-hystrix-dashboard-turbine/src/main/java/com.itcodai.springcloud/OrderConsumerHystrixDashboard.java">
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-feign/src/main/java/com/itcodai/springcloud/OrderConsumerFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.2.RELEASE/spring-cloud-netflix-eureka-client-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="246" column="16" selection-start-line="246" selection-start-column="16" selection-end-line="246" selection-end-column="16" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#7839#7840#0" expanded="true" />
-            <element signature="e#7885#7886#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order-provider01-hystrix/src/main/resources/application.yml">
+    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/net/URI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="-101363">
+          <caret line="463" column="19" selection-start-line="463" selection-start-column="19" selection-end-line="463" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="460" column="33" selection-start-line="460" selection-start-column="33" selection-end-line="460" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/springcloud/OrderConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/java/com/itcodai/springcloud/controller/OrderConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="e#1178#1208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/service/OrderConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/lombok/AllArgsConstructor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/lang/annotation/RetentionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/controller/OrderConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer01/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-common/src/main/java/com/itcodai/springcloud/entity/TOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer01/src/main/java/itcodai/springcloud/OrderConsumer01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/controller/InheritOrderConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/OrderConsumer02Sync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/InheritOrderConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/controller/OrderConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Sync/src/main/java/springcloud/service/InheritOrderConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/OrderConsumer02Syn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer02-Syn/src/main/java/springcloud/service/InheritOrderConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider02/src/main/java/com/itcodai/springcloud/OrderProvider02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider03/src/main/java/com/itcodai/springcloud/OrderProvider03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer03-Asy/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer03/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-718" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer03/src/main/java/spingcloud/OrderConsumer03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-626">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer03-Asy/src/main/java/spingcloud/service/OrderConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer03-Asy/src/main/java/spingcloud/controller/OrderConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding>
+            <element signature="e#1642#1672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer03-Asy/src/main/java/spingcloud/OrderConsumer03Asy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-consumer03/src/main/java/spingcloud/controller/OrderConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="e#1496#1526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/java/com/itcodai/springcloud/OrderProvider01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider03/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider02/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider03/src/main/resources/mapper/BasicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider02/src/main/resources/mapper/BasicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/resources/mapper/BasicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider02/src/main/resources/conf/configuration.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider03/src/main/resources/conf/configuration.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-provider01/src/main/resources/conf/configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -906,10 +1151,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>microservice-order-consumer-feign</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

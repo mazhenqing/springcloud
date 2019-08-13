@@ -2,10 +2,7 @@ package spingcloud.controller;
 
 import com.itcodai.springcloud.entity.TOrder;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
@@ -33,7 +30,7 @@ public class OrderConsumerController {
 //        return restTemplate.getForObject(ORDER_PROVIDER_URL_PREFIX + "/provider/order/get/" + id, TOrder.class);
 //    }
 //POST请求的一种写法 其中有三种 POSTforEntity POSTforObject Postforlocation
-    @GetMapping("/get/{id}")
+    @PostMapping("/get/{id}")
     //这是注解同步执行
     @HystrixCommand(fallbackMethod = "getOrderfallBack")//HystrixCommand用于返回单个操作结果   HysreixObservableCommand对象 用于返回多个操作结果
     public TOrder getOrder(@PathVariable Long id) {
