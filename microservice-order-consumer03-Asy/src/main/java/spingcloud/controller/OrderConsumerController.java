@@ -1,12 +1,12 @@
 package spingcloud.controller;
 
+import com.itcodai.springcloud.entity.Basic;
 import com.itcodai.springcloud.entity.TOrder;
+import com.itcodai.springcloud.util.Result;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import spingcloud.service.OrderConsumerService;
 
@@ -34,6 +34,13 @@ public class OrderConsumerController {
     @Autowired
     OrderConsumerService orderConsumerService;
     //加在消费方的断路器  将它分离在service上
+    //首页轮播图的接口
+    @PostMapping("/get/showLunbo")
+    public Result showLunbo(){
+        Result result=new Result();
+        ResponseEntity<Result> responseEntity=restTemplate.postForEntity(ORDER_PROVIDER_URL_PREFIX+"/provider/order/get/lunbo",result,Result.class);
+        return result.setStatus(0).setData(responseEntity.getBody());
+    }
     @GetMapping("/get/{id}")
     /*
     InterruptedException如果interrupt在计算完成之前在等待的线程上调用，则会抛出。

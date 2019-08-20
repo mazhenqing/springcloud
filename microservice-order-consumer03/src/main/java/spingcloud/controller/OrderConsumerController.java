@@ -1,7 +1,10 @@
 package spingcloud.controller;
 
+import com.itcodai.springcloud.entity.Basic;
 import com.itcodai.springcloud.entity.TOrder;
+import com.itcodai.springcloud.util.Result;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -24,6 +27,13 @@ public class OrderConsumerController {
 
     @Resource
     private RestTemplate restTemplate;
+    //首页轮播图的接口
+    @PostMapping("/get/showLunbo")
+    public Result showLunbo(){
+        Result result=new Result();
+        ResponseEntity<Result> responseEntity=restTemplate.postForEntity(ORDER_PROVIDER_URL_PREFIX+"/provider/order/get/lunbo",result,Result.class);
+        return result.setStatus(0).setData(responseEntity.getBody());
+    }
 //get请求的一中写法
 //    @GetMapping("/get/{id}")
 //    public TOrder getOrder(@PathVariable Long id) {

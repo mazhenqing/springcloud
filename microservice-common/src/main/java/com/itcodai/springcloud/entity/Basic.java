@@ -1,46 +1,15 @@
 package com.itcodai.springcloud.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+
+@AllArgsConstructor//注解：表示生成带有所有属性的构造方法
+@NoArgsConstructor//注解：表示生成不带参数的构方法
+@Data//注解：表示生成get和set方法
+@Accessors(chain = true)
 public class Basic {
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getWheel_plantingone() {
-        return wheel_plantingone;
-    }
-
-    public void setWheel_plantingone(String wheel_plantingone) {
-        this.wheel_plantingone = wheel_plantingone;
-    }
-
-    public String getWheel_plantingtwo() {
-        return wheel_plantingtwo;
-    }
-
-    public void setWheel_plantingtwo(String wheel_plantingtwo) {
-        this.wheel_plantingtwo = wheel_plantingtwo;
-    }
-
-    public String getWheel_plantingthree() {
-        return wheel_plantingthree;
-    }
-
-    public void setWheel_plantingthree(String wheel_plantingthree) {
-        this.wheel_plantingthree = wheel_plantingthree;
-    }
-
-    public String getWheel_plantingfour() {
-        return wheel_plantingfour;
-    }
-
-    public void setWheel_plantingfour(String wheel_plantingfour) {
-        this.wheel_plantingfour = wheel_plantingfour;
-    }
-
     private int id;
     private String wheel_plantingone;
     private String wheel_plantingtwo;

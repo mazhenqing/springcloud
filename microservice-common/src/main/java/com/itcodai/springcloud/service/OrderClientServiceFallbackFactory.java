@@ -1,6 +1,8 @@
 package com.itcodai.springcloud.service;
 
+import com.itcodai.springcloud.entity.Basic;
 import com.itcodai.springcloud.entity.TOrder;
+import com.itcodai.springcloud.util.Result;
 import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 
@@ -17,6 +19,11 @@ public class OrderClientServiceFallbackFactory implements FallbackFactory<OrderC
     @Override
     public OrderClientService create(Throwable throwable) {
         return new OrderClientService() {
+
+            @Override
+            public Result showLunbo() {
+                return new Result().setStatus(66).setMessage("进入断路器");
+            }
 
             /**
              * 当订单服务的getOrder()方法出异常后的熔断处理方法

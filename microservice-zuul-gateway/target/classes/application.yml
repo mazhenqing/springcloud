@@ -21,7 +21,7 @@ eureka:
 
 # 使用actuator来展示项目的基本信息
 info:
-  author.name: shengwu ni
+  author.name: zhenqing Ma
   app.name: microservice
   server.port: ${server.port}
   application.name: ${spring.application.name}

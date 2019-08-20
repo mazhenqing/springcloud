@@ -1,5 +1,6 @@
 package com.itcodai.springcloud.dao;
 
+import com.itcodai.springcloud.entity.Basic;
 import com.itcodai.springcloud.entity.TOrder;
 import org.apache.ibatis.annotations.Select;
 
@@ -12,4 +13,7 @@ public interface OrderMapper {
 
     @Select("select * from t_order")
     List<TOrder> findAll();
+
+    //显示轮播图
+    Basic showLunbo();
 }

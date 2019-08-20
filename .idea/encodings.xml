@@ -22,6 +22,7 @@
     <file url="file://$PROJECT_DIR$/microservice-order-provider02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-order-provider03" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-zuul-gateway" charset="UTF-8" />
   </component>
 </project>

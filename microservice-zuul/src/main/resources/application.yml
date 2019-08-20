@@ -1,0 +1,41 @@
+# 服务端口号
+server:
+  port: 6789
+
+spring:
+  application:
+    name: microservice-zuul # 对外暴露的服务名称
+
+# 客户端注册进eureka服务列表里
+eureka:
+  client:
+    service-url:
+      defaultZone: http://mazhenqing:mazhenqing123456@eureka01:7001/hello/eureka/,http://mazhenqing:mazhenqing123456@eureka02:7002/hello/eureka/,http://mazhenqing:mazhenqing123456@eureka03:7003/hello/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    instance-id: zuul网关服务-6666  # 人性化显示出服务的信息
+    prefer-ip-address: true    # 访问路径可显示ip地址
+    lease-renewal-interval-in-seconds: 2
+    lease-expiration-duration-in-seconds: 5
+
+# 使用actuator来展示项目的基本信息
+info:
+  author.name: zhenqing Ma
+  app.name: microservice
+  server.port: ${server.port}
+  application.name: ${spring.application.name}
+
+
+# 配置路由规则
+zuul:
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+  #ignored-services: microservice-order # 不允许用微服务名访问了，如果禁用所有的，可以使用 "*",表示禁用默认路由，只认配置的路由
+  routes:
+    # 如下指定新的映射
+    consumer-a:
+      path: /consumer-a/**
+      url: http://localhost:9001/
+#      stripPrefix: false
+

@@ -28,12 +28,32 @@ spring:
 MICROSERVICE-ORDER:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#MICROSERVICE-ORDER:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.itcodai.springcloud.myrule.MyRuleConfig
 
 # 开启熔断
 feign:
   hystrix:
     enabled: true
 
+#hystrix的超时时间必须大于ribbon的超时时间,否则hystrix命令超时后,该命令直接熔断,重试机制就没有意义了
+#设置hystrix全局超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 4000
+#设置ribbon超时时间
+#只配置了MaxAutoRetries没配置MaxAutoRetriesNextServer（MaxAutoRetriesNextServer默认值是1），那么超过ReadTimeout实际重新请求的次数不是3次，而是7次。通过多次调试得出以下结论，实际请求次数为：
+#MaxAutoRetries +  MaxAutoRetriesNextServer + (MaxAutoRetries * MaxAutoRetriesNextServer  )
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 300
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
 
 # 配置hystrix dashboard的url访问
 # 开启指标流端点

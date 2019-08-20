@@ -1,6 +1,8 @@
 package com.itcodai.springcloud.controller;
 
+import com.itcodai.springcloud.entity.Basic;
 import com.itcodai.springcloud.entity.TOrder;
+import com.itcodai.springcloud.util.Result;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import com.netflix.discovery.shared.Application;
@@ -10,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 import com.itcodai.springcloud.service.OrderService;
 
 import javax.annotation.Resource;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -19,13 +23,20 @@ import java.util.List;
 @RestController
 @RequestMapping("/provider/order")
 public class OrderProviderController {
-
+    Result result=new Result();
     @Resource
     private OrderService orderService;
     @Resource
     private EurekaClient client;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderProviderController.class);
+    //查询轮播图
+    @PostMapping("/get/lunbo")
+    public Result showLunbo(){
+        System.out.println("这是走2了");
+        result=orderService.showLunbo();
+        return result;
+    }
 
     @PostMapping("/get/{id}")
     public TOrder getOrder(@PathVariable(value = "id") Long id) {

@@ -1,11 +1,14 @@
 package itcodai.springcloud.controller;
 
+import com.itcodai.springcloud.entity.Basic;
 import com.itcodai.springcloud.entity.TOrder;
+import com.itcodai.springcloud.util.Result;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
+import java.awt.print.Book;
 import java.util.List;
 
 /**
@@ -21,9 +24,16 @@ public class OrderConsumerController {
      */
 //    private static final String ORDER_PROVIDER_URL_PREFIX = "http://localhost:8001";
     private static final String ORDER_PROVIDER_URL_PREFIX = "http://MICROSERVICE-ORDER";
-
+    Result result=new Result();
     @Resource
     private RestTemplate restTemplate;
+    //首页轮播图的接口
+    @PostMapping("/get/showLunbo")
+    public Result showLunbo(){
+        Result result=new Result();
+        ResponseEntity<Result> responseEntity=restTemplate.postForEntity(ORDER_PROVIDER_URL_PREFIX+"/provider/order/get/lunbo",result,Result.class);
+        return result.setStatus(0).setData(responseEntity.getBody());
+    }
 //get请求的一中写法
 //    @GetMapping("/get/{id}")
 //    public TOrder getOrder(@PathVariable Long id) {

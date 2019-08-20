@@ -4,7 +4,7 @@ server:
 
 # 数据库地址
 datasource:
-  url: 192.168.18.8:3306/microservice02
+  url: 192.168.18.8:3306/mablog
 
 spring:
   application:
@@ -22,10 +22,12 @@ spring:
 mybatis:
   # 指定别名设置的包为所有entity
   type-aliases-package: com.itcodai.springcloud.entity
+  config-location: classpath:conf/configuration.xml
   mapper-locations: # mapper映射文件位置
     - classpath:mapper/*.xml
-  configuration:
-    map-underscore-to-camel-case: true # 驼峰命名规范
+#与config-location冲突 二者只能选其一
+#  configuration:
+#    map-underscore-to-camel-case: true # 驼峰命名规范
 
 # 客户端注册进eureka服务列表里
 eureka:
