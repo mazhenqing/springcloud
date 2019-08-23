@@ -50,8 +50,8 @@ hystrix:
 #只配置了MaxAutoRetries没配置MaxAutoRetriesNextServer（MaxAutoRetriesNextServer默认值是1），那么超过ReadTimeout实际重新请求的次数不是3次，而是7次。通过多次调试得出以下结论，实际请求次数为：
 #MaxAutoRetries +  MaxAutoRetriesNextServer + (MaxAutoRetries * MaxAutoRetriesNextServer  )
 ribbon:
-  ReadTimeout: 3000
-  ConnectTimeout: 300
+  ReadTimeout: 3000    #该参数用来设置路由请求转发的超时时间
+  ConnectTimeout: 300  #该参数用来设置路由转发的时候,创建请求连接的超时时间
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 1
 

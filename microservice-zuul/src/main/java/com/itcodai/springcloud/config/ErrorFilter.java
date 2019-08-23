@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import javax.servlet.http.HttpServletResponse;
 
 public class ErrorFilter extends ZuulFilter {
-
+//出来来自zuul的pre、route、post过滤器返回的异常 统一处理并返回
     Logger log= LoggerFactory.getLogger(ErrorFilter.class);
     @Override
     public String filterType() {

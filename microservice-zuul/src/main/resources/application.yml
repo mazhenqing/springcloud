@@ -28,6 +28,7 @@ info:
 
 #单实例配置-----------------------------------------------------
 # 配置路由规则
+#zuul.AccessFilter.pre.disable=true 来关闭制定过滤器
 zuul:
   #能够使得网关在进行路由转发前为请求设置host头信息,以标识最初的服务端请求地址
   add-host-header: true
