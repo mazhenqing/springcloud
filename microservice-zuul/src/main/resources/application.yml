@@ -26,16 +26,62 @@ info:
   server.port: ${server.port}
   application.name: ${spring.application.name}
 
-
+#单实例配置-----------------------------------------------------
 # 配置路由规则
 zuul:
+  #能够使得网关在进行路由转发前为请求设置host头信息,以标识最初的服务端请求地址
+  add-host-header: true
+  # 使用 prefix 添加前缀
+  prefix: /api #路由表达式(path)的起始字符串与zuul.prefix参数相同会出现错误 切记
+  #跨域的配置
   sensitive-headers: Access-Control-Allow-Origin
   ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+  #ignored-patterns: /**/consumer/**  (针对所有路由)忽略表达式参数,该参数用来设置不希望被api网关进行路由的URL表达式
   #ignored-services: microservice-order # 不允许用微服务名访问了，如果禁用所有的，可以使用 "*",表示禁用默认路由，只认配置的路由
   routes:
     # 如下指定新的映射
     consumer-a:
+      customSensitiveHeaders: true #对指定路由开启自定义敏感头或者sensitiveHeaders
       path: /consumer-a/**
       url: http://localhost:9001/
-#      stripPrefix: false
-
+    consumer-b:
+      path: /consumer-b/**
+      url: forward:/local #本地跳转
+      #直接走服务名称方法
+      #serviceId: MICROSERVICE-ORDER
+      #stripPrefix: false
+#--------------------------------------#
+#zuul路由便捷方式serviceId=path
+#zuul:
+#  # 使用 prefix 添加前缀
+#  prefix: /api
+#  sensitive-headers: Access-Control-Allow-Origin
+#  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+#  #ignored-services: microservice-order # 不允许用微服务名访问了，如果禁用所有的，可以使用 "*",表示禁用默认路由，只认配置的路由
+#  routes:
+#    microservice-order: /microservice-order/**
+#单实例配置-----------------------------------------------------------------
+#多实例配置-----------------------------------------------------------------
+# 配置路由规则
+#zuul:
+#  # 使用 prefix 添加前缀
+#  prefix: /api
+#  sensitive-headers: Access-Control-Allow-Origin
+#  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+#  #ignored-services: microservice-order # 不允许用微服务名访问了，如果禁用所有的，可以使用 "*",表示禁用默认路由，只认配置的路由
+#  routes:
+#    # 如下指定新的映射
+#    consumer-a:
+#      path: /consumer-a/**
+#      #url: http://localhost:9001/
+#      #直接走服务名称方法
+#      serviceId: MICROSERVICE-ORDER
+#      #stripPrefix: false
+#ribbon:
+#  eureka:
+#    enabled: false
+#
+#MICROSERVICE-ORDER:
+#  ribbon:
+#    listOfServers: http://localhost:8004/,http://localhost:8002/
+#多实例配置----------------------------------------------------------------

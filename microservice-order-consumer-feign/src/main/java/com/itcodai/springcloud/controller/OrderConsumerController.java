@@ -28,6 +28,7 @@ public class OrderConsumerController {
     private OrderClientService orderClientService;
     @PostMapping("/get/showLunbo")
     public Result showLunbo(HttpServletRequest request){
+        System.out.println("feign方法--》");
         result=orderClientService.showLunbo();
         return result;
     }
