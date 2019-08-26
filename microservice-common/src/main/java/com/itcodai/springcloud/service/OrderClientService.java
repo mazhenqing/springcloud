@@ -17,7 +17,8 @@ import java.util.List;
 //@FeignClient(value = "MICROSERVICE-ORDER")
 @FeignClient(value = "MICROSERVICE-ORDER", fallbackFactory = OrderClientServiceFallbackFactory.class)
 public interface OrderClientService {
-
+    @PostMapping("/provider/order/show/belowinformation")
+    Result showBelowInformation();
     @PostMapping("/provider/order/get/lunbo")
     Result showLunbo();
     @PostMapping("/provider/order/get/{id}")

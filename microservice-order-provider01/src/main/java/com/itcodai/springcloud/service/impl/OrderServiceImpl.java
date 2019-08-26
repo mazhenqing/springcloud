@@ -15,6 +15,18 @@ public class OrderServiceImpl implements OrderService {
     Result result=new Result();
     @Resource
     private OrderMapper orderMapper;
+
+    /**
+     * 查询首页下方基本信息
+     * @return
+     */
+    @Override
+    public Result showBelowInformation() {
+        Basic basic=orderMapper.showBelowInformation();
+        result.setStatus(0).setData(basic).setMessage("查询成功");
+        return result;
+    }
+
     /**
      * 显示轮播图
      * @return

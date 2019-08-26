@@ -15,4 +15,11 @@ public class Basic {
     private String wheel_plantingtwo;
     private String wheel_plantingthree;
     private String wheel_plantingfour;
+    private String rotary_title;
+    private String address;
+    private String telephone;
+    private String mailbox;
+    private String about_us;
+    private String recent_projects;
+    private String latest_news;
 }

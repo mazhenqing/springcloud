@@ -8,6 +8,8 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 @Mapper
 public interface OrderMapper {
+    //查询首页下方基本信息
+    Basic showBelowInformation();
     //显示轮播图
     Basic showLunbo();
     @Select("select * from t_order where id = #{id}")

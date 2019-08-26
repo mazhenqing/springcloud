@@ -21,6 +21,11 @@ public class OrderClientServiceFallbackFactory implements FallbackFactory<OrderC
         return new OrderClientService() {
 
             @Override
+            public Result showBelowInformation() {
+                return null;
+            }
+
+            @Override
             public Result showLunbo() {
                 return new Result().setStatus(66).setMessage("进入断路器");
             }

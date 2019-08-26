@@ -30,6 +30,12 @@ public class OrderProviderController {
     private EurekaClient client;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderProviderController.class);
+    //查询首页下方基本信息
+    @PostMapping("/show/belowinformation")
+    public Result showBelowInformation(){
+        result=orderService.showBelowInformation();
+        return result;
+    }
     //查询轮播图
     @PostMapping("/get/lunbo")
     public Result showLunbo(){

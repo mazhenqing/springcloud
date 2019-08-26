@@ -26,6 +26,12 @@ public class OrderConsumerController {
      */
     @Resource
     private OrderClientService orderClientService;
+    //查询首页下方基本信息
+    @PostMapping("/show/belowinformation")
+    public Result showBelowInformation(){
+        result=orderClientService.showBelowInformation();
+        return result;
+    }
     @PostMapping("/get/showLunbo")
     public Result showLunbo(HttpServletRequest request){
         System.out.println("feign方法--》");
