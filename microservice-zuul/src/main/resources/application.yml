@@ -31,7 +31,7 @@ info:
 #zuul.AccessFilter.pre.disable=true 来关闭制定过滤器
 zuul:
   #能够使得网关在进行路由转发前为请求设置host头信息,以标识最初的服务端请求地址
-  add-host-header: true
+  #add-host-header: true
   # 使用 prefix 添加前缀
   prefix: /api #路由表达式(path)的起始字符串与zuul.prefix参数相同会出现错误 切记
   #跨域的配置
@@ -42,7 +42,7 @@ zuul:
   routes:
     # 如下指定新的映射
     consumer-a:
-      customSensitiveHeaders: true #对指定路由开启自定义敏感头或者sensitiveHeaders
+      #customSensitiveHeaders: true #对指定路由开启自定义敏感头或者sensitiveHeaders
       path: /consumer-a/**
       url: http://localhost:9001/
     consumer-b:
