@@ -8,6 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer
 public class MicroserviceConfig {
     public static void main(String[] args) {
+        //new SpringApplicationBuilder(MicroserviceConfig.class).web(true).run(args);
         SpringApplication.run(MicroserviceConfig.class, args);
     }
 }
