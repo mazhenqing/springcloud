@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/microservice-order-comsumer-hystrix-dashboard-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-test/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-configserver/pom.xml" />
       </list>
     </option>
   </component>

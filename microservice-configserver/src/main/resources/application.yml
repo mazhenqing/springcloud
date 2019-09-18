@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mazhenqing/config-repo/
+          search-paths: testone,testtwo
+          username: mazhenqing
+          password: Woaisi@1314
+server:
+  port: 5556
+book:
+  name: ${random.value}
+  author: ZhaiYongchao
