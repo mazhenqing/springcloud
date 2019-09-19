@@ -1,27 +1,21 @@
 package springcloud.controller;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+@RefreshScope
 @RestController
-@RequestMapping("/config")
 public class ClientController {
-
-    @Value("${spring.application.name}")
-    private String springApplicationName;
-
-    @Value("${server.port}")
-    private String serverPort;
-
-    @Value("${eureka.client.service-url.defaultZone}")
-    private String defaultEurekaZone;
-
-    @GetMapping("/test")
-    public String getConfig() {
-        return "applicationName=" + springApplicationName
-                + "; serverPort=" + serverPort
-                + "; defaultEurekaZone=" + defaultEurekaZone;
+//    @Value("${from}")
+//    private String from;
+    @Autowired
+    private Environment env;
+    @RequestMapping("/from")
+    public String from(){
+//        return this.from;
+        return env.getProperty("from");
     }
 }

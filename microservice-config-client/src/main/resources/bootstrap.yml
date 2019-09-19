@@ -1,10 +1,10 @@
 server:
-  port: 8881
+  port: 5557
 
 spring:
   cloud:
     config:
-      uri: http://127.0.0.1:5555  # 服务启动后，去找5555服务
-      name: microservice-config  # 从github上读取的资源名称，不要加 .yml后缀
-      label: master # master分支
-      profile: dev  # dev配置
+      uri: http://127.0.0.1:5556  # 服务启动后，去找5555服务
+      name: didispace  # 从github上读取的资源名称，不要加 .yml后缀
+      label: config-test # master分支
+      profile: dev  # dev版本
