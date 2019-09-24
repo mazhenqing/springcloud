@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-eureka01" />
-        <module name="microservice-eureka03" />
+        <module name="microservice-order-consumer-hystrix-dashboard" />
         <module name="microservice-config-client" />
         <module name="microservice-order-consumer" />
         <module name="microservice-config" />
@@ -17,23 +17,19 @@
         <module name="microservice-order-consumer-feign" />
         <module name="microservice-order-consumer02-Sync" />
         <module name="microservice-order-comsumer-hystrix-dashboard-turbine" />
-        <module name="microservice-order-provider01" />
-        <module name="microservice-zuul" />
-        <module name="microservice-order-consumer-hystrix-dashboard" />
+        <module name="microservice-order-consumer03-Asy" />
+        <module name="microservice-eureka03" />
         <module name="microservice-order-consumer02-Syn" />
         <module name="microservice-zuul-gateway" />
         <module name="microservice-order-provider03" />
         <module name="microservice-order-provider02" />
-        <module name="microservice-order-consumer03-Asy" />
+        <module name="microservice-order-provider01" />
         <module name="microservice-order-consumer01" />
-        <module name="microservice-common" />
         <module name="microservice-test" />
+        <module name="microservice-common" />
+        <module name="microservice-zuul" />
         <module name="microservice-eureka02" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="microservice-configclient" target="1.8" />
-      <module name="microservice-configclients" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

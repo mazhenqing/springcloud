@@ -1,14 +1,79 @@
 spring:
   application:
     name: config-server
+#  profiles:
+#    active: native
   cloud:
+    #config中的一大坑 你配置的本地路径必须是在GitHub上传过的(应该是有.git文件夹的) 否则无法读取配置信息
     config:
       server:
         git:
+          #将临时目录指定为其他路径 否则会放在administrator的temp目录下 随时可能被清空
+          basedir: D:/temp/
+          #读取GitHub上的文件配置
           uri: https://github.com/mazhenqing/config-repo/
-          search-paths: testone,testtwo
-          username: mazhenqing
-          password: Woaisi@1314
+          #读取本地文件系统的配置 仅适用于开发和测试 上线必须用GitHub
+          #uri: file:///F:/test/config-repo
+          #search-paths: testtwo,testone
+          search-paths: testtwo,testone
+#          username: mazhenqing
+#          password: Woaisi@1314
+          passphrase: mazhenqing # 访问ssh私钥口令
+          ignore-local-ssh-settings: true # If true, use property based SSH config instead of file based.
+          private-key: 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
+          #(repos)配置库
+          repos:
+            dev:
+              #匹配application名称为dev的应用  profile没有任何限制 （application-profile.yml）
+              #如果表达式是以通配符开始的,那么需要使用引号将配置内容引起来
+              #配置仓库会按照顺序加载
+              pattern: dev/*
+              uri: file:///F:/test/config-repo/
+              #test仓库未配置匹配规则,只匹配application名为test的应用
+            test:
+              #uri: file:///F:/ideaworkspace/test
+              uri: file:///F:/ideaworkspace/{application}
+              search-paths: testtwo,testone
+            #prod仓库则需要匹配application为prod并且profile为pp开头,或者application为online并且profile为oo开头的应用和环境
+            prod:
+              pattern: mazhenqing/*,prod/pp*,online/oo*
+              uri: file:///D:/look/
+
 server:
   port: 5556
 book:
