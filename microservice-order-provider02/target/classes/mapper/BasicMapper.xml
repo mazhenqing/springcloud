@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.itcodai.springcloud.dao.OrderMapper" >
+	<!--resultType="Basic"-->
+	<select id="showLunbo"
+			resultType="Basic">
+		SELECT
+	(
+		CASE
+		WHEN basic.wheel_plantingone IS NOT NULL THEN
+			basic.wheel_plantingone
+		ELSE
+			'1'
+		END
+	) AS wheel_plantingone,
+	(
+		CASE
+		WHEN basic.wheel_plantingtwo IS NOT NULL THEN
+			basic.wheel_plantingtwo
+		ELSE
+			'1'
+		END
+	) AS wheel_plantingtwo,
+	(
+		CASE
+		WHEN basic.wheel_plantingthree IS NOT NULL THEN
+			basic.wheel_plantingthree
+		ELSE
+			'1'
+		END
+	) AS wheel_plantingthree,
+(
+		CASE
+		WHEN basic.wheel_plantingfour IS NOT NULL THEN
+			basic.wheel_plantingfour
+		ELSE
+			'1'
+		END
+	) AS wheel_plantingfour
+
+FROM
+	basic
+	</select>
+	<select id="showBelowInformation"
+			resultType="Basic">
+			SELECT
+        basic.rotary_title,
+		basic.address,
+		basic.telephone,
+		basic.mailbox,
+		basic.about_us
+	FROM
+		basic
+	</select>
+</mapper>

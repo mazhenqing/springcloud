@@ -1,0 +1,29 @@
+server:
+  port: 9004
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://mazhenqing:mazhenqing123456@eureka01:7001/hello/eureka/,http://mazhenqing:mazhenqing123456@eureka02:7002/hello/eureka/,http://mazhenqing:mazhenqing123456@eureka03:7003/hello/eureka/
+
+  instance:
+    instance-id: 继承hystrix的同步执行(execute)-9004  # 人性化显示出服务的信息
+    prefer-ip-address: true    # 访问路径可显示ip地址
+    lease-renewal-interval-in-seconds: 2
+    lease-expiration-duration-in-seconds: 5
+
+spring:
+  application:
+    name: ribbon-client
+
+
+
+
+#
+#MICROSERVICE-ORDER:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RetryRule
+
+
+
