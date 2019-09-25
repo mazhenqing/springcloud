@@ -1,12 +1,15 @@
 spring:
   application:
     name: config-server
-#  profiles:
-#    active: native
+  profiles:
+    active: native
   cloud:
     #config中的一大坑 你配置的本地路径必须是在GitHub上传过的(应该是有.git文件夹的) 否则无法读取配置信息
     config:
       server:
+        native:
+          searchLocations: classpath:/src/main/resources/conf/
+
         git:
           #将临时目录指定为其他路径 否则会放在administrator的temp目录下 随时可能被清空
           basedir: D:/temp/
