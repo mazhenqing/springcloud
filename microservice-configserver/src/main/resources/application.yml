@@ -1,16 +1,24 @@
 spring:
   application:
     name: config-server
-    #默认在spring.application.profiles.active下读取profile为native的配置文件 即application-native.properties
-  profiles:
-    active: native
+#    #默认在spring.application.profiles.active下读取profile为native的配置文件 即application-native.properties
+#  profiles:
+#    active: native
   cloud:
     #config中的一大坑 你配置的本地路径必须是在GitHub上传过的(应该是有.git文件夹的) 否则无法读取配置信息
     config:
       server:
-        native:
-          searchLocations: classpath:/src/main/resources/conf/
-
+        overrides:
+          from: mazhenqing 真牛逼
+#加载本地配置的搜索路径 是给所有连接这个config-server的config-client使用的
+#        native:
+#          search-locations: classpath:/conf
+        health:
+          repositories:
+            check:
+              name: config-repo
+              label: master
+              profiles: default
         git:
           #将临时目录指定为其他路径 否则会放在administrator的temp目录下 随时可能被清空
           basedir: D:/temp/
@@ -18,7 +26,6 @@ spring:
           uri: https://github.com/mazhenqing/config-repo/
           #读取本地文件系统的配置 仅适用于开发和测试 上线必须用GitHub
           #uri: file:///F:/test/config-repo
-          #search-paths: testtwo,testone
           search-paths: testtwo,testone
 #          username: mazhenqing
 #          password: Woaisi@1314
