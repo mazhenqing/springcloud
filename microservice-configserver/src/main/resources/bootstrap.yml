@@ -1,0 +1,4 @@
+#对称性加密
+#加密的秘钥  必须放在bootstrap中 放在application中不会生效
+encrypt:
+  key: woaisi1314
