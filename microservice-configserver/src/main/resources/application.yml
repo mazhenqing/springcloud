@@ -1,4 +1,14 @@
 spring:
+  datasource:
+    #对称性加密
+    username: user
+    password: "{cipher}c2a256129ba82ba59ca02586f3c79745df4fcc0a9189a5948c92f92b367aed72"
+  #加入security安全校验
+#  security:
+#    user:
+#      name: user
+#      password: 263b11c2-4e64-4caf-8b30-1a646acf2c83
+  #对外暴露的服务名称
   application:
     name: config-server
 #    #默认在spring.application.profiles.active下读取profile为native的配置文件 即application-native.properties
@@ -150,3 +160,4 @@ management:
       enabled: true
     prometheus: #19、以可以被Prometheus服务器抓取的格式显示metrics信息，默认开启
       enabled: true
+

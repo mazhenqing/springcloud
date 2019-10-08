@@ -1,4 +1,13 @@
 spring:
+  datasource:
+    username: user
+    password: "{cipher}c2a256129ba82ba59ca02586f3c79745df4fcc0a9189a5948c92f92b367aed72"
+  #加入security安全校验
+#  security:
+#    user:
+#      name: user
+#      password: 263b11c2-4e64-4caf-8b30-1a646acf2c83
+  #对外暴露的服务名称
   application:
     name: config-server
 #    #默认在spring.application.profiles.active下读取profile为native的配置文件 即application-native.properties
@@ -10,6 +19,7 @@ spring:
       server:
         overrides:
           from: mazhenqing 真牛逼
+#加载本地配置的搜索路径 是给所有连接这个config-server的config-client使用的
 #        native:
 #          search-locations: classpath:/conf
         health:
@@ -25,7 +35,6 @@ spring:
           uri: https://github.com/mazhenqing/config-repo/
           #读取本地文件系统的配置 仅适用于开发和测试 上线必须用GitHub
           #uri: file:///F:/test/config-repo
-          #search-paths: testtwo,testone
           search-paths: testtwo,testone
 #          username: mazhenqing
 #          password: Woaisi@1314
@@ -150,3 +159,4 @@ management:
       enabled: true
     prometheus: #19、以可以被Prometheus服务器抓取的格式显示metrics信息，默认开启
       enabled: true
+

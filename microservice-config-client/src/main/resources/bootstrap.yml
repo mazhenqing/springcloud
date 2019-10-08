@@ -8,3 +8,5 @@ spring:
       name: didispace  # 从github上读取的资源名称，不要加 .yml后缀
       label: config-test # master分支
       profile: dev  # dev版本
+      username: user
+      password: 263b11c2-4e64-4caf-8b30-1a646acf2c83
