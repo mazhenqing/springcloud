@@ -36,8 +36,8 @@ eureka:
 
   server:
     eviction-interval-timer-in-ms: 3000 #过期实例应该启动并运行的时间间隔，单位为毫秒，默认为60 * 1000
-#近期改为false测试  无法登陆eureka页面
-    enable-self-preservation: false #eureka server的自我保护机制
+#自我保护模式是有意义的，该模式被激活后，它不会从注册列表中剔除因长时间没收到心跳导致租期过期的服务，而是等待修复，直到心跳恢复正常之后，它自动退出自我保护模式
+    enable-self-preservation: true #eureka server的自我保护机制
 #开启了全局路径 在前面加的  失效了
 #management:
 #  context-path: /hello
